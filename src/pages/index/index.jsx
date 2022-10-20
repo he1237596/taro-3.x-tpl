@@ -15,7 +15,7 @@ import {PageKey} from "@/utils/pages";
   index
 }), (dispatch) => ({
   // $listRecommend: (args = {}) => dispatch({type: 'index/listRecommend', ...args}),
-  // $search: (args = {}) => dispatch({type: 'index/search', ...args})
+  $search: (args = {}) => dispatch({type: 'index/search', ...args})
 }))
 class Index extends Component {
   state = {
